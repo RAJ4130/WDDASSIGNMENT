@@ -1,0 +1,26 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.navbar{
+    color: red;
+    padding: 20px;
+    text-align: center;
+    background-color: (39, 39, 58);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    color: black(125, 116, 133);
+    font-size: 20px;
+    padding: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 40px;
+}

@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    margin: 100px;
+}
+
+tr{
+    font-weight: bold;
+}
+
+.sub1{
+    color: blue;
+}
+
+.sub2{
+    color: orange;
+}
+
+.sub3{
+    color: purple;
+}
+
+.sub4{
+    color: green;
+}
+
+.sub5{
+    color: red;
+}
+

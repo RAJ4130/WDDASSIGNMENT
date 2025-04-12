@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 600px;
+    height: 400px;
+    padding: 100px;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+}
+
+.grid-item{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-a{
+    grid-area: a;
+    background-color: rgb(9,173,238);
+}
+
+.item-b{
+    grid-area: b;
+    background-color: rgb(238,70,9);
+}
+
+.item-c{
+    grid-area: c;
+    background-color: rgb(27, 21, 203);
+}
+
+.item-d{
+    grid-area: d;
+    background-color: rgb(183, 227, 10);
+}
+
+.item-e{
+    grid-area:e;
+    background-color: rgb(204, 9, 238);
+}
+
+.item-f{
+    grid-area: f;
+    background-color: rgb(9, 238, 32);
+}
+
+.item-g{
+    grid-area: g;
+    background-color: rgb(238, 158, 9);
+}
+
+.item-h{
+    grid-area: h;
+    background-color: rgb(39, 107, 133);
+}
+
+.item-i{
+    grid-area: i;
+    background-color: brown;
+}
+
+@media(max-width:658px)
+{
+    body{
+        background-color: blanchedalmond;
+    }
+    
+    .grid-container{
+        background-color: blanchedalmond;
+    }
+
+    .item-a{
+        grid-area: a;
+        background-color: rgb(117, 140, 149);
+    }
+    
+    .item-b{
+        grid-area: b;
+        background-color: rgb(75, 61, 56);
+    }
+    
+    .item-c{
+        grid-area: c;
+        background-color: rgb(65, 64, 104);
+    }
+    
+    .item-d{
+        grid-area: d;
+        background-color: rgb(95, 99, 79);
+    }
+    
+    .item-e{
+        grid-area:e;
+        background-color: rgb(121, 83, 128);
+    }
+    
+    .item-f{
+        grid-area: f;
+        background-color: rgb(66, 106, 70);
+    }
+    
+    .item-g{
+        grid-area: g;
+        background-color: rgb(237, 196, 120);
+    }
+    
+    .item-h{
+        grid-area: h;
+        background-color: rgb(59, 75, 81);
+    }
+    
+    .item-i{
+        grid-area: i;
+        background-color: rgb(232, 115, 115);
+    }
+
+}
